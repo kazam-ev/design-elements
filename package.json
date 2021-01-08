@@ -1,5 +1,5 @@
 {
-  "name": "design-elements",
+  "name": "hello-next",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "next": "10.0.4",
+    "next-images": "^1.6.2",
     "react": "17.0.1",
     "react-dom": "17.0.1"
   }

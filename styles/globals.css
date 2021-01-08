@@ -1,16 +1,44 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
 
-a {
+/* .info{
+  width: 968px;
+  height: 159px;
+  margin: 24px 0 5px;
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #959595;
+} */
+
+
+
+/* .logo{
+  display: flex;
+} */
+
+/* .comma{
+  position: relative;
+  margin-left: 449px;
+  margin-right: 449px;
+  margin-top: 24px;
+  object-fit: contain;
+} */
+
+/* .MaskGroup{
+  margin-left: 100px;
+  margin-right: auto;
+  margin-top: 24px;
+  object-fit: contain;
+ 
+} */
+
+/* a {
   color: inherit;
   text-decoration: none;
-}
+} */
 
-* {
-  box-sizing: border-box;
-}
+
