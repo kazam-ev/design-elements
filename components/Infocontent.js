@@ -1,20 +1,23 @@
 import ticklogo from '../pages/images/tick.png'
+import styles from "../styles/Infocontent.module.css"
+
 
 const Infocontent = (props) => {
     return (
         <div>
-            <div className="info-main">
+          
+            <div className={styles.infoMain}>
 
-                <div className="info-img">
-                    <img className="tickLogo"
+                <div>
+                    <img className={styles.tickLogo}
                         src={ticklogo}
                         alt='tickLogo'
                         id='logoImg'/>
                 </div>
-                <div className="info-heading">
-                    <div className="info-head-big">{props.line}
+                <div className={styles.infoHeading}>
+                    <div className={styles.infoheadBig}>{props.line}
                     </div>
-                    <div className="info-head-sm">{props.brief}
+                    <div className={styles.infoheadSm}>{props.brief}
                     </div>
                 </div>
             </div>

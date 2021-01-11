@@ -1,0 +1,80 @@
+
+@media only screen and (max-width: 800px){
+    .card{
+        margin: 20px 20px !important ;
+        padding-top: 10px;
+    }  
+
+    .cd{
+        width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .title{
+        text-align: center;
+        padding: 25px 0px;
+        margin-left: auto!important;
+    }
+}
+
+.resources{
+    max-width: 80%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 60px;
+    text-align: center;
+    height: 40px;
+    font-family: Lato;
+    font-size: 36px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.22;
+    letter-spacing: 3.6px;
+    color: #1a1a1a;
+    background-color: #fff;
+}
+
+#facilities {
+    padding: 50px 0px;
+}
+
+#facilities h1{
+    font-weight: 900;
+    font-size:34px;
+    padding-bottom: 5px;
+    justify-content: center;
+    align-content: center;
+}
+
+.title{
+    text-align: center;
+    padding: 25px 0px;
+    margin-left: auto!important;
+}
+
+
+.title p{
+    font-size: 18px;
+}
+
+.cardBody{
+    box-shadow: 0 0 20px 7px rgba(0,0,0,0.1);
+}
+
+.Cardtextcenter{
+    margin-top: 20px;
+}
+
+.cd{
+    margin:20px 5px 20px 15px;
+    width: 320px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+@media only screen and (max-width: 800px){
+   
+}
+
+

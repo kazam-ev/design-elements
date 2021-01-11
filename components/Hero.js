@@ -9,32 +9,29 @@ const Hero = () => {
     return (
         <div className={styles.restaurentImg} >
            {/* <div className={`row ${styles.restaurentImg}`}>
-
+                        className={`btn btn-danger btn-lg btn-md`}
            </div> */}
-           <div className="rest-1">
+           <div className={styles.midtext}>
                 <h1 >Enhance your customer experience and
                     increase your customer footfall
-                    <span><p className="heading-2">Offer EV charging to your customer</p></span>
+                    <span><p className={styles.midtextsm}>Offer EV charging to your customer</p></span>
                 </h1> 
            </div>
          
-           <div className="rest-2">
-            <div className="form">
+           <div className={styles.rest}>
+            <div  className={styles.form}>
                         <input 
-                            className="telephone no-outline" 
+                            className={styles.telephone}
                             type="tel"
                             class="no-outline"
                             placeholder="Enter mobile number"
                             onChange={async (e) => {
                                 const {value} = e.currentTarget
-                                // const Fuse = (await import('fuse.js')).default
-                                // const fuse = new Fuse(names)
-                    
-                                // setResults(fuse.search(value))
+                               
                             }}
                         />
 
-                            <button type="button" class="btn btn-danger btn-lg btn-md">Get a callback</button>
+                            <button type="button" className={`btn btn-danger btn-lg btn-md`}>Get a callback</button>
             </div>
           
            </div>

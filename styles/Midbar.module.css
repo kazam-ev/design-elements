@@ -1,0 +1,110 @@
+
+.midBar{
+ 
+    width: 100%;
+    max-height: 50vh;
+    margin: 100px auto 0px auto;
+    padding-bottom: 20px!important;
+    background-color: #FFF4F5;
+    justify-content: center;
+    text-align: center;
+}
+
+.midText{
+  width: 100%;
+  height: 159px;
+  margin: 24px 0 5px;
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 750px;
+  letter-spacing: normal;
+  text-align: center;
+  color: #959595;
+}
+
+@media only screen and (max-width: 1000px){
+    
+    
+    .midText{
+        width: 90%;
+        font-size: 14px;
+        height: 120px !important;
+        margin: 5px auto 5px auto;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .comImg{
+        margin-top: 10px;
+       width: 30px !important;
+       height: 30px !important;
+    }
+
+    .mandi{
+        width: 80px;
+        height: 20px;
+        font-family: Inter;
+        font-size: 15px !important;
+        line-height: 1.21;
+   
+    }
+  
+    .mandii{
+        width: 60%;
+        color: #f4263d;
+        height: 10px;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        font-family: Inter;
+        font-size: 12px !important;
+        line-height: 1.22;
+    }
+} 
+
+
+.commA{
+    justify-content: center;
+}
+
+.nav-text{
+    color: white;
+}
+
+.mandi{
+   
+    width: 140px;
+    height: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    color: #f4263d;
+}
+
+
+.mandii{
+    color: #f4263d;
+    height: 12px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    padding-bottom: 10px;
+    width: 60%;
+}

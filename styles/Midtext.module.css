@@ -1,0 +1,27 @@
+
+@media only screen and (max-width: 800px){
+    .resources{
+        margin-left: auto !important;
+        margin-right: auto !important;
+        font-size: 20px !important;
+    }
+}
+
+
+.resources{
+    max-width: 80%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 60px;
+    text-align: center;
+    height: 40px;
+    font-family: Lato;
+    font-size: 36px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.22;
+    letter-spacing: 3.6px;
+    color: #1a1a1a;
+    background-color: #fff;
+}

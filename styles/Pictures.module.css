@@ -1,0 +1,67 @@
+.banner{
+    width: auto;
+    background-color: transparent; 
+}
+
+.boxInfo{
+    display: flex !important;
+}
+
+@media only screen and (max-width: 1024px){
+
+    .banner{
+        height: 40vh !important;
+    }
+    .harvey{
+        width: 80px !important ;
+        height: 60px;
+        margin-left: 25px !important;
+        margin-bottom: 10px !important;
+        margin-right: 5px !important;
+        border-radius: 29px;
+    }
+    .image{
+        height: 40vh;
+    }
+    
+    .greencar{
+      width: 80px !important;
+      margin: 50px 25px 59px 0px !important; 
+      object-fit: contain;
+    }
+    
+    .happy{
+        width: 100px !important;
+        margin-left: 20px !important;
+        border-radius: 29px;
+    }
+
+    .smallest {
+        display: flex;
+    }
+}
+
+.harvey{
+    width: 186px;
+    height: 256px;
+    margin: 70px 15px 5px 180px;
+    object-fit: contain;
+    border-radius: 29px;
+}
+
+.greencar{
+  width: 175px;
+  height: 304px;
+  margin: 200px 0px 59px 15px;
+  object-fit: contain;
+}
+
+
+.happy{
+    width: 255px;
+    height: 370px;
+    margin: 4px 34px 90px 90px;
+    object-fit: contain;
+    border-radius: 29px;
+}
+

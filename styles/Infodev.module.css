@@ -1,0 +1,14 @@
+.boxx{
+    display: flex;
+}
+
+@media only screen and (max-width: 1024px){
+
+    .boxx{
+        margin-top: 60px ;
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+

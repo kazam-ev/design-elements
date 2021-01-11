@@ -1,5 +1,6 @@
 import Card from "./Card"
 import Midtext from "./Midtext"
+import styles from "../styles/CardList.module.css"
 
 const CardList = () => {
 
@@ -9,7 +10,7 @@ const CardList = () => {
     return (
         <div>
             <Midtext text={text} />
-            <div className="row finalrow">
+            <div className={`row ${styles.finalrow}`}>
                 <div className="col sm-12 md-6 lg-4 cardmargin">
                     <Card  cardText={"Restaurent and charging"} cardTitle={"Card 1"} imgUrl={url} />
                 </div>

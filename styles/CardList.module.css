@@ -1,0 +1,6 @@
+/* to keep in width full otherwise horizontal scroll */
+.finalrow{
+    width: 100%;
+    justify-content: center !important;
+    align-content: center !important;
+}
