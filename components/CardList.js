@@ -11,7 +11,7 @@ const CardList = () => {
         <div>
             <Midtext text={text} />
             <div className={`row ${styles.finalrow}`}>
-                <div className="col sm-12 md-6 lg-4 cardmargin">
+                <div className="col sm-12 md-6 lg-4 ">
                     <Card  cardText={"Restaurent and charging"} cardTitle={"Card 1"} imgUrl={url} />
                 </div>
                 <div className="col sm-12 md-6 lg-4">

@@ -1,0 +1,74 @@
+.navbar{
+ 
+  height: 66px;
+  padding: 16px 23px 16px 24px;
+  border: solid 1px ;
+  background-color: black;
+  padding-top: 10px;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%;
+    transition: top 0.3s;
+    display: flex;
+    
+}
+
+.kazam{
+    width: 171.9px;
+  height: 49px;
+  margin: 10px 25.1px 0 0;
+  padding-bottom: 7px;
+  object-fit: contain;
+  margin-left: 40px;
+}
+
+.tabs{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.button{
+    width: 237px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  height: 40px;
+  margin: 10px 10px 10px 75px;
+  padding: 22px 28px 21px 29px;
+  border-radius: 37px;
+  border: solid 1px #ffffff;
+}
+
+button > .text{
+    padding-bottom: 10px;
+    /* margin-bottom: 20px !important; */
+}
+
+.text{
+  height: 22px;
+  margin: 21px  30px 10px 21px;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.text2{
+    height: 22px;
+    margin: 10px  0 10px 21px !important;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.22;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}

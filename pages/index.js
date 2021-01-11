@@ -13,7 +13,7 @@ function Home() {
   return (
     <>
 
-      {/* <Navbar /> */}
+      <Navbar />
       <Hero />
       <Infodev />
      <Midbar/>
