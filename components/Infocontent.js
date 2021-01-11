@@ -1,5 +1,3 @@
-import ticklogo from '../pages/images/tick.png'
-
 const Infocontent = (props) => {
     return (
         <div>
@@ -7,7 +5,7 @@ const Infocontent = (props) => {
 
                 <div className="info-img">
                     <img className="tickLogo"
-                        src={ticklogo}
+                        src='/images/tick.png'
                         alt='tickLogo'
                         id='logoImg'/>
                 </div>

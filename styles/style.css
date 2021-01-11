@@ -119,7 +119,7 @@ input{
 
 .restaurent-img{
 
-    background-image: url(../pages/images/Group.png);
+    background-image: url(/images/Group.png);
     height: 100vh;
     width: 100% !important;
     background-position: center;

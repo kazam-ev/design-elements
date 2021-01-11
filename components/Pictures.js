@@ -1,8 +1,4 @@
 
-import happy from '../pages/images/happy.png'
-import greencar from '../pages/images/greencar.png'
-import harvey from '../pages/images/harvey.png'
-
 const Pictures = () => {
     return(
         <div className="banner " id="pics">
@@ -15,16 +11,16 @@ const Pictures = () => {
                                 <div className="Col md-6 lg-6 ">
                                     <div className="Row smallest">
                                         <div className="Col md-12 sm-6">
-                                            <img src={harvey} alt="harvey" className="harvey" />
+                                            <img src='/images/greencar.png' alt="harvey" className="harvey" />
                                         </div>
                                         <div className="Col md-12 sm-6">
-                                        <img src={happy} alt="happy" className="happy" />
+                                        <img src='/images/happy.png' alt="happy" className="happy" />
                                         </div>
                                     </div>
                                 </div>
 
                                 <div className="Col md-6 lg-6 ">
-                                     <img src={greencar} alt="greencar" className="greencar" />
+                                     <img src='/images/greencar.png' alt="greencar" className="greencar" />
                                 </div>
                             </div>
                         </div>

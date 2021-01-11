@@ -1,4 +1,3 @@
-import ticklogo from '../pages/images/tick.png'
 import Infocontent from "./Infocontent"
 
 

@@ -1,10 +1,8 @@
-import comma from '../pages/images/comma.png'
-
 const Midbar = () => {
     return (
         <div className="mid-bar">
             <div className="comm-a">
-                <img className="com-img"  src={comma} alt=""/>
+                <img className="com-img"  src='/images/comma.png' alt=""/>
             </div>
             <div>
                 <p className="mid-text row">a formal written description or statement about the abilities,
