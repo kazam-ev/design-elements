@@ -16,6 +16,7 @@
 .playimg {
   justify-content: center;
   align-content: center;
+ 
 }
 
 .hero{
@@ -265,3 +266,16 @@
 } 
 }
 
+/* 
+@media only screen and (max-width:414px){
+  .para{
+    margin-left: 0px;
+  }
+
+  .btn{
+    width: 180px;
+    height: 40px;
+    margin-top: 80px;
+    margin-left: 120px;
+  } 
+} */

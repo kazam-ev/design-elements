@@ -16,13 +16,13 @@ const Edge = (props) => {
 
         <div className={`container`}>
             <div className={`row`}>
-                <div className={`col-sm-6`}>
+                <div className={`col-sm-6 col-md-4 ${styles.cardAlign}`}>
                     <SimpleCard description={desc} image={cycle} title={"Beginner Friendly"}/>
                 </div>
-                <div className={`col-sm-6`}>
+                <div className={`col-sm-6 col-md-4 ${styles.cardAlign}`}>
                     <SimpleCard description={desc} image={rocket} title={"Proven Method"}/>
                 </div>
-                <div className={`col-sm-6`}>
+                <div className={`col-sm-6 col-md-4 ${styles.cardAlign}`}>
                     <SimpleCard description={desc} image={earth} title={"Prepared for real world"}/>
                 </div>
             </div>

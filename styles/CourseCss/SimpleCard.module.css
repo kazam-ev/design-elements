@@ -21,7 +21,7 @@
 .image > img {
   width: 18%;
   height: 110px;
-  margin-left: 80px;
+  margin-left: 150px;
   margin-right: auto;
   margin-bottom: 2px;
 }
@@ -35,6 +35,7 @@
 .image{
   justify-content: center;
   align-content: center;
+  margin-left: 140px;
 }
 
 .cardTitle{
@@ -61,13 +62,13 @@
   } 
  
  .cardDescription{
-   width: 300px;
+   width: 200px;
    height: 120px;
  }
  
  .image > img {
    height: 90px;
-   margin-left: 160px;
+   margin-left: 100px;
  }
 
  .image{
@@ -81,9 +82,10 @@
  }
 
  .cardTitle{
-     max-width:250px ;
-     height: 20px;
-     margin-bottom: 20px;   
+     max-width:200px ;
+     height: 15px;
+     margin-bottom: 20px;  
+     font-size: 15px; 
  }
 
 }
@@ -118,23 +120,36 @@
 
 }
 
-  @media only screen and (width:1024px){
+  @media only screen and (min-width:1025px){
 
   .image > img {
-   margin-left: 100px;
-   margin-right: auto;
+   margin-left: 50px;
+   /* margin-right: auto !important;
+   margin-left: auto !important; */
   }
 
   .image{
-   margin-left: 100px;
+   margin-left: 140px;
   }
 
 }  
 
-/* @media only screen and (width:414px){
+@media only screen and (width:1024px){
 
   .image > img {
-   margin-left: 120px;
+   margin-left: 50px;
+  }
+
+  .image{
+   margin-left: 90px;
+  }
+
+}  
+
+ @media only screen and (width:500px){
+
+  .image > img {
+   margin-left: 100px;
    margin-right: auto;
   }
 
@@ -142,4 +157,4 @@
    margin-left: 120px;
   }
 
-}   */
+}   
