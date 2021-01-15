@@ -1,0 +1,100 @@
+.heading{
+  width: 221px;
+  height: 44px;
+
+  margin: 72px auto 60px auto;
+  font-family: Lato;
+  font-size: 36px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+  letter-spacing: 3.6px;
+  text-align: left;
+  color: #1a1a1a;
+}
+
+
+.cardVideo{
+    width: 100%;
+}
+
+.container{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.tutorial{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.lines{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.line1{
+  width: 620px;
+  height: 0;
+  margin: 10px 40px 0 20px;
+  border: solid 1px #959595;
+}
+
+.line2{
+  width: 620px;
+  height: 0;
+  margin: 10px 20px 0 40px;
+  border: solid 1px #959595;
+}
+
+
+.view{
+    width: 123px;
+  height: 24px;
+  margin: 60px 18.5px 75px 29px;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.21;
+  letter-spacing: normal;
+  text-align: left;
+  color: #959595;
+}
+
+@media only screen and (min-width:414px)
+{
+  .heading{
+    width: 221px;
+    height: 44px;
+    margin: 72px auto 60px 130px;
+    text-align: center;
+    
+  }
+  
+  
+  .cardVideo{
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+  .container{
+      margin-left: 30px;
+      margin-right: 30px;
+  }
+  
+  .tutorial{
+      margin-left: auto ;
+      margin-right: auto;
+      width: 80%;
+  }
+  
+ 
+} 
+

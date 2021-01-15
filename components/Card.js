@@ -3,7 +3,7 @@ import styles from "../styles/Card.module.css"
 const Card = (props) => {
     return (
         <div>
-            <div >
+            <div>
                 <section id={styles.facilities}>
                     <div >
                                 <div className={styles.cd}>
@@ -20,7 +20,6 @@ const Card = (props) => {
                     </div>
                 </section>
             </div>
-           
         </div>
     );
 }

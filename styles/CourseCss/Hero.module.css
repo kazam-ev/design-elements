@@ -1,0 +1,267 @@
+ .video{
+    width: 450px;
+    height: 310px;
+    margin: 143px 135px 2px auto;
+    border-radius: 24px;
+    background-color: #ebebeb;
+}
+
+.playimg > img{
+  width: 15%;
+  margin-top: 120px !important;
+  margin-left: 190px;
+  margin-right: auto;
+}
+
+.playimg {
+  justify-content: center;
+  align-content: center;
+}
+
+.hero{
+  display: flex;
+  width: 100% !important;
+  height: 80vh;
+  margin: 0 0 0 0;
+   background-color: #ffffff;
+   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+} 
+
+.smHeading{
+  width: 507px;
+  height: 29px;
+  margin: 143px 0px 22px 80px;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.21;
+  letter-spacing: normal;
+  text-align: left;
+  color: #3e3e3e;
+}
+
+ .bgHeading{
+  max-width: 817px;
+  max-height: 138px;
+  margin: 22px 0px 60px 80px;
+  font-family: Lato;
+  font-size: 48px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1a1a1a;
+}
+
+.btn{
+  width: 245px;
+  height: 62px;
+  margin-top: 60px;
+  margin: 25px 0 0 80px;
+  padding: 22px 88px 21px 89px;
+  border-radius: 8px;
+  box-shadow: 0 10px 19px 0 rgba(0, 0, 0, 0.35);
+  background-color: #f4263d;
+} 
+
+
+@media only screen and (max-width: 1024px){
+   .hero{
+    height:60vh;
+   }
+
+   .video{
+    width: 250px;
+    height: 150px;
+    margin: 210px 100px 2px 30px;
+   }
+
+   
+   .playimg > img{
+     width: 15%;
+     margin-top: 60px !important;
+     margin-left: 110px;
+ 
+    
+   }
+
+   .bgHeading{
+    max-width: 800px;
+    max-height: 128px;
+    margin: 40px 0px 20px 80px;
+    font-size: 30px;
+  }
+
+  .smHeading{
+    width: 507px;
+    height: 20px;
+    margin: 159px 0px 10px 80px;
+    font-size: 20px;
+  }
+}
+
+
+@media only screen and (max-width: 480px){
+  .hero{
+   height:100vh;
+   flex-direction: column !important;
+  }
+
+  .video{
+   width: 200px;
+   height: 120px;
+   margin: 70px auto 2px auto;
+  }
+
+  
+  .playimg > img{
+    width: 15%;
+    margin-top: 45px !important;
+    margin-left: 90px;
+    margin-right: auto;
+   
+  }
+
+  .para{
+    margin-left: 50px;
+  }
+
+  .bgHeading{
+   max-width: 200px;
+   max-height: 100px;
+   margin-right: 0px !important;
+   margin: 80px 0px 20px 60px;
+   font-size: 26px;
+   text-align: center;
+ }
+
+ .smHeading{
+   max-width: 200px;
+   height: 10px;
+   margin: 110px 0px 10px 60px;
+   font-size: 18px;
+   text-align: center;
+ }
+ 
+
+ .btn{
+  width: 180px;
+  height: 40px;
+  margin-top: 80px;
+  margin-left: 120px;
+} 
+}
+
+
+
+@media only screen and (max-width: 760px){
+  .hero{
+   height:100vh;
+   flex-direction: column !important;
+  }
+
+  .video{
+   width: 200px;
+   height: 120px;
+   margin: 70px auto 2px auto;
+  }
+
+  
+  .playimg > img{
+    width: 15%;
+    margin-top: 45px !important;
+    margin-left: 90px;
+    margin-right: auto;
+   
+  }
+
+  .para{
+    margin-left: 50px;
+  }
+
+  .bgHeading{
+   max-width: 300px;
+   max-height: 100px;
+   margin-right: 0px !important;
+   margin: 80px 0px 20px 70px;
+   font-size: 26px;
+   text-align: center;
+ }
+
+ .smHeading{
+   max-width: 300px;
+   height: 10px;
+   margin: 110px 0px 10px 70px;
+   font-size: 18px;
+   text-align: center;
+ }
+ 
+
+ .btn{
+  width: 180px;
+  height: 40px;
+  margin-top: 30px;
+  margin-left: 180px;
+} 
+}
+
+
+
+
+
+@media only screen and (max-width: 385px){
+  .hero{
+   height:100vh;
+   flex-direction: column !important;
+  
+  }
+
+  .video{
+   width: 200px;
+   height: 120px;
+   margin: 60px auto 2px auto;
+  }
+
+  
+  .playimg > img{
+    width: 15%;
+    margin-top: 45px !important;
+    margin-left: 90px;
+    margin-right: auto;
+   
+  }
+
+  .para{
+    margin-left: 50px;
+  }
+
+  .bgHeading{
+   max-width: 200px;
+   max-height: 80px;
+   margin-right: 0px !important;
+   margin: 60px 20px 20px 40px;
+   font-size: 22px;
+   text-align: center;
+ }
+
+ .smHeading{
+   max-width: 200px;
+   height: 10px;
+   margin: 110px 20px 10px 40px;
+   font-size: 16px;
+   text-align: center;
+ }
+ 
+
+ .btn{
+  width: 180px;
+  height: 40px;
+  margin-top: 40px;
+  margin-left: 100px;
+} 
+}
+

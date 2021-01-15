@@ -1,4 +1,4 @@
-import comma from '../pages/images/comma.png'
+import comma from "../public/images/imgRestaurent/comma.png"
 import styles from "../styles/Midbar.module.css"
 
 

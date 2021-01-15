@@ -1,4 +1,4 @@
-import restaurent from "../pages/images/Group.png"
+import restaurent from "../public/images/imgRestaurent/Group.png"
 import styles from "../styles/Hero.module.css"
 import {useState} from 'react'
 

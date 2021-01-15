@@ -1,6 +1,6 @@
-import happy from '../pages/images/happy.png'
-import greencar from '../pages/images/greencar.png'
-import harvey from '../pages/images/harvey.png'
+import happy from "../public/images/imgRestaurent/happy.png"
+import greencar from "../public/images/imgRestaurent/greencar.png"
+import harvey from "../public/images/imgRestaurent/harvey.png"
 import styles from "../styles/Pictures.module.css"
 
 const Pictures = () => {

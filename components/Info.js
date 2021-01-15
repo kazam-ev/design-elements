@@ -1,4 +1,4 @@
-import ticklogo from '../pages/images/tick.png'
+import ticklogo from '../public/images/imgRestaurent/tick.png'
 import Infocontent from "./Infocontent"
 import styles from "../styles/Info.module.css"
 

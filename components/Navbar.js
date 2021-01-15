@@ -1,4 +1,4 @@
-import logo from "../pages/images/kazam.png"
+import logo from "../public/images/imgRestaurent/kazam.png"
 import styles from "../styles/Navbar.module.css"
 
 
