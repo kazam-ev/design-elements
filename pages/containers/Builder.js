@@ -1,11 +1,13 @@
-const { default: Herobuilder } = require("../../components/builder/Herobuilder")
+const {
+  default: Herobuilder,
+} = require("../../components/builder/Herobuilder");
 
 const Builder = () => {
-    return (
-        <div>
-           <Herobuilder />
-        </div>
-    );
-}
+  return (
+    <div>
+      <Herobuilder />
+    </div>
+  );
+};
 
 export default Builder;
