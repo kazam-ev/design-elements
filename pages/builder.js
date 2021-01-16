@@ -1,4 +1,4 @@
-const { default: Herobuilder } = require("../../components/builder/Herobuilder")
+const { default: Herobuilder } = require("../components/builder/Herobuilder")
 
 const Builder = () => {
     return (

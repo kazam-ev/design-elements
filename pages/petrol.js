@@ -1,4 +1,4 @@
-const { default: Heropetrol } = require("../../components/Petrolpump/Heropetrol")
+const { default: Heropetrol } = require("../components/Petrolpump/Heropetrol")
 
 const Petrol = () => {
     return (

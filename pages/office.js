@@ -1,4 +1,4 @@
-const { default: Herooffice } = require("../../components/office/Herooffice")
+const { default: Herooffice } = require("../components/office/Herooffice")
 
 const Office = () => {
     return (

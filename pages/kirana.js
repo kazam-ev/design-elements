@@ -1,4 +1,4 @@
-import Herokirana from "../../components/kirana/Herokirana"
+import Herokirana from "../components/kirana/Herokirana"
 
 const Kirana = () => {
     return (

@@ -1,4 +1,4 @@
-const { default: Heromall } = require("../../components/shoppingmall/Heromall")
+const { default: Heromall } = require("../components/shoppingmall/Heromall")
 
 const Shoppingmall = () => {
     return (

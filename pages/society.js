@@ -1,4 +1,4 @@
-import Heroresident from "../../components/residentialSociety/Heroresident"
+import Heroresident from "../components/residentialSociety/Heroresident"
 
 const Society = () => {
     return (
