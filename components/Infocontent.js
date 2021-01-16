@@ -5,9 +5,7 @@ import styles from "../styles/Infocontent.module.css"
 const Infocontent = (props) => {
     return (
         <div>
-          
             <div className={styles.infoMain}>
-
                 <div>
                     <img className={styles.tickLogo}
                         src={ticklogo}

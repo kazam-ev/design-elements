@@ -16,7 +16,7 @@ const Card = (props) => {
                                             </p>
                                         </div>
                                     </div>
-                            </div>
+                                </div>
                     </div>
                 </section>
             </div>

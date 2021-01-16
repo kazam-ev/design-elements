@@ -5,8 +5,8 @@
   border: solid 1px ;
   background-color: black;
   padding-top: 10px;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
+    position: fixed;
+    top: 0; 
     width: 100%;
     transition: top 0.3s;
     display: flex;
@@ -42,7 +42,6 @@
 
 button > .text{
     padding-bottom: 10px;
-    /* margin-bottom: 20px !important; */
 }
 
 .text{

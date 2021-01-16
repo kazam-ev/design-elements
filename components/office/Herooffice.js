@@ -1,14 +1,13 @@
-import restaurent from "../public/images/imgRestaurent/Group.png"
-import styles from "../styles/Hero.module.css"
+import styles from "../../styles/office/Herooffice.module.css"
 import {useState} from 'react'
-import Heromidtext from "./Heromidtext";
+import Heromidtext from "../Heromidtext";
 
-const Hero = () => {
+const Herooffice = () => {
+
+    const heading  = "Electric Vehicle Charging Station for your office";
+    const subheading  = "Let your employees charge their electric car, electric bikes and electric scooters in your office parking space";
 
     const [mobile ,setMobile] = useState(0);
-
-    const heading = "Enhance your customer experience and increase your customer footfall";
-    const subheading = "Offer EV charging to your customer";
 
     return (
         <div className={styles.restaurentImg} >
@@ -36,4 +35,4 @@ const Hero = () => {
     );
 }
 
-export default Hero;
+export default Herooffice;

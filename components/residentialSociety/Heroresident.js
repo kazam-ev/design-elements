@@ -1,14 +1,13 @@
-import restaurent from "../public/images/imgRestaurent/Group.png"
-import styles from "../styles/Hero.module.css"
+import styles from "../../styles/ResidentialSociety/Heroresident.module.css"
 import {useState} from 'react'
-import Heromidtext from "./Heromidtext";
+import Heromidtext from "../Heromidtext";
 
-const Hero = () => {
+const Heroresident = () => {
+
+    const heading  = "Electric Vehicle Charging Station for Residential Society";
+    const subheading  = "Use Kazam charger for your society and apartments  so that EV owners can charge without any hassle and units consumed can be tracked per user";
 
     const [mobile ,setMobile] = useState(0);
-
-    const heading = "Enhance your customer experience and increase your customer footfall";
-    const subheading = "Offer EV charging to your customer";
 
     return (
         <div className={styles.restaurentImg} >
@@ -36,4 +35,4 @@ const Hero = () => {
     );
 }
 
-export default Hero;
+export default Heroresident;
