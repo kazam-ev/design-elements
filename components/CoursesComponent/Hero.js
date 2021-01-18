@@ -1,5 +1,5 @@
-import styles from "../styles/CourseCss/Hero.module.css"
-import logo from "../public/images/videoPlay.svg"
+import styles from "../../styles/CourseCss/Hero.module.css"
+import logo from "../../public/images/videoPlay.svg"
 
 
 const Hero = () => {

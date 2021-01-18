@@ -1,0 +1,116 @@
+.tab{
+    display: flex;
+}
+
+.righttab{
+  width: 1360px;
+  height: 70px;
+  margin: 9px 168px 8px -10px;
+  padding: 17px 24px 15px 56px;
+  border-radius: 4px;
+  box-shadow: 0 1px 11px 0 rgba(0, 0, 0, 0.09);
+  background-color: #ffffff;
+  display: flex;
+}
+
+.lefttab{
+  width: 272px;
+  height: 70px;
+  margin: 9px 0 8px 168px;
+  padding: 40px 123px 34px 79px;
+  border-radius: 4px;
+  background-color: #959595;
+}
+
+.lefttab > p{
+    width: 70px;
+  height: 18px;
+  margin : 25px auto 20px auto;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.text1 {
+    width: 220px;
+    height: 18px;
+    margin: 25px auto 20px 50px;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.22;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1a1a1a;
+  
+}
+
+@media only screen and (max-width:480px){
+
+    .text1 {
+        width: auto;
+        height: 34px;
+        margin: 30px 45px 7px 20px;
+        font-family: Lato;
+        font-size: 14px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.21;
+        letter-spacing: normal;
+        text-align: left;
+        color: #1a1a1a;
+    }
+
+    .image{
+        width: 15px;
+        height: 15px;
+        margin: 10px 20px 0 0;
+        object-fit: contain;
+    }
+    
+    
+    .lefttab > p{
+        width: 56px;
+        height: 17px;
+        font-family: Lato;
+        margin-top: 30px;
+        font-size: 14px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.21;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .lefttab{
+        width: 89px;
+        height: 76px;
+        margin: 9px 0 8px 16px;
+        padding: 44px 16px 35px 17px;
+        border-radius: 4px;
+        background-color: #959595;
+    }
+
+    .righttab{
+        width: 255px;
+        height: 76px;
+        margin: 9px 15px 8px 0;
+        padding: 24px 8px 24px 15px;
+        border-radius: 4px;
+        box-shadow: 0 1px 11px 0 rgba(0, 0, 0, 0.09);
+        background-color: #ffffff;
+        display: flex;
+      }
+    
+}

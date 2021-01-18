@@ -1,4 +1,6 @@
 const { default: Hero } = require("../components/Hero")
+import Infodev from "../components/Infodev";
+import Midtext from "../components/Midtext";
 import Navbar from "../components/Navbar";
 
 
@@ -11,11 +13,19 @@ const Shoppingmall = () => {
     const imgPath =
     "url(" + `${require(`../public/images/imgMall/Mall.png`)}` + ")";
 
+    const text=[
+        "Enhanced customer experience",
+        "Increase footfall into your shopping mall",
+        "Customers spend more time in your mall",
+        "Create a brand for your mall"
+    ]
 
     return (
         <div>
            <Navbar />
            <Hero heading={heading} subheading={subheading} imgPath={imgPath} />
+           <Midtext text={"Why should get a charging station at your shopping mall?"}/>
+           <Infodev text={text} />
         </div>
     );
 }

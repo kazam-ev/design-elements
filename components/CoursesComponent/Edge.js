@@ -1,9 +1,9 @@
-import styles from "../styles/CourseCss/Edge.module.css"
-import rocket from "../public/images/rocket.svg"
-import cycle from "../public/images/cycle.svg"
-import earth from "../public/images/earth.svg"
+import styles from "../../styles/CourseCss/Edge.module.css"
+import rocket from "../../public/images/rocket.svg"
+import cycle from "../../public/images/cycle.svg"
+import earth from "../../public/images/earth.svg"
 import SimpleCard from "./SimpleCard"
-import Midtext from "../components/Midtext"
+import Midtext from "../Midtext"
 
 const Edge = (props) => {
 

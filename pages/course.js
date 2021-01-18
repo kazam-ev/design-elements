@@ -1,6 +1,6 @@
-import Edge from "../CoursesComponent/Edge";
-import Hero from "../CoursesComponent/Hero";
-import Tutorail from "../CoursesComponent/Tutorail";
+import Edge from "../components/CoursesComponent/Edge";
+import Hero from "../components/CoursesComponent/Hero";
+import Tutorail from "../components/CoursesComponent/Tutorail";
 import Navbar from "../components/Navbar";
 
 const Courses = () => {

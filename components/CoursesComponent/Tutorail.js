@@ -1,7 +1,7 @@
-import styles from "../styles/CourseCss/Tutorial.module.css"
-import lecture from "../public/images/lecture.png"
+import styles from "../../styles/CourseCss/Tutorial.module.css"
+import lecture from "../../public/images/lecture.png"
 import Card from "./Card"
-import Midtext from "../components/Midtext"
+import Midtext from "../Midtext"
 
 const Tutorail = () => {
 

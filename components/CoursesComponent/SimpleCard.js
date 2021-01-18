@@ -1,4 +1,4 @@
-import styles from "../styles/CourseCss/SimpleCard.module.css"
+import styles from "../../styles/CourseCss/SimpleCard.module.css"
 
 const SimpleCard = (props) => {
 
