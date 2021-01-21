@@ -6,12 +6,12 @@
   
 }
 
-.form{
+.inForm{
     display: flex;
     flex-direction: column;
 }
 
-.telephone{
+.telephoneNo{
   
   width: 221px;
   height: 29px;
@@ -47,7 +47,7 @@
     color: white;
 }  */
 
-.rest{
+.restForm{
 
     display: flex;
     justify-content: center;
@@ -78,7 +78,7 @@
     }
 
 
-    .telephone{
+    .telephoneNo{
             width: 180px;
             height: 20px;
             margin-bottom: 5px;

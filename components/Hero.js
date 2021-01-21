@@ -18,10 +18,10 @@ const Hero = ({ heading, subheading, imgPath }) => {
     >
       <Heromidtext heading={heading} subheading={subheading} />
 
-      <div className={styles.rest}>
-        <div className={styles.form}>
+      <div className={styles.restForm}>
+        <div className={styles.inForm}>
           <input
-            className={styles.telephone}
+            className={styles.telephoneNo}
             type="tel"
             className="no-outline"
             placeholder="Enter mobile number"
